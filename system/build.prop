@@ -27,8 +27,8 @@ ro.board.platform=s5pc110
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=crespo4g
 # Do not try to parse ro.build.description or .fingerprint
-ro.build.description=soju-user 2.3.7 GWK74 185293 release-keys
-ro.build.fingerprint=google/soju/crespo4g:2.3.7/GWK74/185293:user/release-keys
+ro.build.description=sojus-user 2.3.7 GWK74 185293 release-keys
+ro.build.fingerprint=google/sojus/crespo4g:2.3.7/GWK74/185293:user/release-keys
 ro.build.characteristics=nosdcard
 # end build properties
 #
@@ -73,4 +73,3 @@ ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint
 ro.telephony.default_network=4
 ro.wimax.interface=uwbr0
-

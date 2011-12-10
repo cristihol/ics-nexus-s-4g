@@ -14,7 +14,7 @@ ro.build.host=Koushik-Lion.local
 ro.build.tags=test-keys
 ro.product.model=Nexus S 4G
 ro.product.brand=google
-ro.product.name=soju
+ro.product.name=sojus
 ro.product.device=crespo4g
 ro.product.board=herring
 ro.product.cpu.abi=armeabi-v7a
@@ -27,8 +27,8 @@ ro.board.platform=s5pc110
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=crespo4g
 # Do not try to parse ro.build.description or .fingerprint
-ro.build.description=soju-user 2.3.7 GWK74 185293 release-keys
-ro.build.fingerprint=google/soju/crespo4g:2.3.7/GWK74/185293:user/release-keys
+ro.build.description=sojus-user 2.3.7 GWK74 185293 release-keys
+ro.build.fingerprint=google/sojus/crespo4g:2.3.7/GWK74/185293:user/release-keys
 ro.build.characteristics=nosdcard
 # end build properties
 #
@@ -67,7 +67,7 @@ ro.ril.gprsclass=10
 dalvik.vm.lockprof.threshold=500
 dalvik.vm.dexopt-flags=m=y
 net.bt.name=Android
-windowsmgr.max_events_per_sec=60
+windowsmgr.max_events_per_sec=80
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint

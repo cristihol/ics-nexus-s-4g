@@ -11,7 +11,7 @@ ro.build.date.utc=1322270948
 ro.build.type=userdebug
 ro.build.user=koush
 ro.build.host=Koushik-Lion.local
-ro.build.tags=test-keys
+ro.build.tags=release-keys
 ro.product.model=Nexus S 4G
 ro.product.brand=google
 ro.product.name=sojus
@@ -29,7 +29,6 @@ ro.build.product=crespo4g
 # Do not try to parse ro.build.description or .fingerprint
 ro.build.description=sojus-user 2.3.7 GWK74 185293 release-keys
 ro.build.fingerprint=google/sojus/crespo4g:2.3.7/GWK74/185293:user/release-keys
-ro.build.characteristics=nosdcard
 # end build properties
 #
 # system.prop for smdkc110
@@ -38,38 +37,34 @@ ro.build.characteristics=nosdcard
 rild.libpath=/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
 ro.sf.lcd_density=240
-
-# Define to manage ril to manage modem answere when going from 2G to 3G
-ro.ril.ntmodeglobal=true
+ril.ecclist=911,#911,*911
 
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
+keyguard.no_require_sim=true
 ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
 ro.config.ringtone=Perseus.ogg
 ro.config.notification_sound=Upsilon.ogg
 ro.config.alarm_alert=Neptunium.ogg
-ro.opengles.version=131072
-wifi.interface=wlan0
-wifi.supplicant_scan_interval=15
-dalvik.vm.heapsize=48m
-ro.telephony.ril.v3=signalstrength
-ro.rommanager.developerid=cyanogenmod
-keyguard.no_require_sim=true
-ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
-ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-ro.com.google.clientidbase=android-google
-ro.com.android.wifi-watchlist=GoogleGuest
-ro.setupwizard.enterprise_mode=1
-ro.com.android.dataroaming=false
-ro.ril.hsxpa=1
-ro.ril.gprsclass=10
-dalvik.vm.lockprof.threshold=500
-dalvik.vm.dexopt-flags=m=y
-net.bt.name=Android
-windowsmgr.max_events_per_sec=80
-dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint
 ro.telephony.default_network=4
 ro.wimax.interface=uwbr0
+ro.opengles.version=131072
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=15
+dalvik.vm.heapsize=48m
+ro.rommanager.developerid=cyanogenmod
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.google.clientidbase=android-google
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.error.receiver.system.apps=com.google.android.feedback
+ro.com.google.locationfeatures=1
+ro.setupwizard.enable_bypass=1
+ro.setupwizard.enterprise_mode=1
+dalvik.vm.dexopt-flags=m=y
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt

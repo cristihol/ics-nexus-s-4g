@@ -50,5 +50,3 @@ touch.size.calibration = normalized
 # Orientation
 touch.orientation.calibration = none
 
-touch.deviceType = touchScreen
-touch.orientationAware = 1
